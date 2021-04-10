@@ -1,8 +1,11 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Raleway:wght@100;300;400&display=swap');
 
-a {
-  color: #00B7FF;
-}
+.centrar-form{
+  margin: 20px auto auto 100px;
+  float:none;
+ }
+
+ .formulario{
+   align-content: center;
+ }

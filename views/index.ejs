@@ -3,9 +3,33 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+<main>
+  <div class="container-fluid" >
+<div class="row">
+  <div class="container col-4" style="background-color:darkmagenta;">
+   <img src="/images/foro.JPG" style="width:150px; border-radius: 30px;"  alt="Foro">
+   
+   <div class="centrar-form"></div>
+   <FORM id="formulario" method=GET action="http://www.google.es/search" >
+    
+        <input type=hidden name=ie value=UTF-8 />
+        <input type=hidden name=oe value=UTF-8 />
+                        
+        <INPUT TYPE=text id="s" name="q" value="" size="50" />
+                        
+        <INPUT type=submit  id="x" name=btnG VALUE="Buscar" />
+        
+   
+    </FORM>
+  </div>
+  
+  </div>
+
+</div>
+  </div>
+</main>
   </body>
 </html>
