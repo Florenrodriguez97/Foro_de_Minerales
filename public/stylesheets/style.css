@@ -1,11 +1,66 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Raleway:wght@100;300;400&display=swap');
+body{
+  margin:0;
+  background-color: #b5076b;
 
-.centrar-form{
-  margin: 20px auto auto 100px;
-  float:none;
- }
+}
 
- .formulario{
-   align-content: center;
- }
+
+.nav-bar_foro {
+  background-color: #b5076b;
+  height: 190px;
+}
+
+.title-nav-bar{
+  text-align: center;
+  margin-top: -60px;
+  margin-bottom: 5%;
+  font-size: 20px;
+  color: #f1ebbb;
+}
+.nav-bar_foro a{
+  text-decoration: none;
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  
+}
+.nav-bar_foro span{
+   margin-top: -5%;
+   display: block;
+  margin-left: 4%;
+  font-weight: bold;
+  padding-bottom: 2%;
+  color: aliceblue;
+  font-size: 20px;
+ 
+}
+.nav-bar_foro img{
+  margin:2% 2% 2% 2%;
+  width: 7%;
+  margin-left: 5%;
+  height: auto;
+}
+.navbar-brand{
+  padding: 7px 0px;
+  margin: 0px 16px 0px 0px;
+  font: 20px Roboto, sans-serif;
+  color: #b5076b;
+  font-weight: bold;
+}
+
+a.nav-links{
+  padding: 7px 0px ;
+  margin: 0px 16px 0px 0px;
+  font: 20px Roboto, sans-serif;
+  color: #b5076b;
+  font-weight: bold;
+  
+}
+
+
+
+
+
+  
