@@ -142,4 +142,71 @@ ul li.active a{
 }
 
 
+footer{
+  background-color: white ;
+}
+
+footer div{
+  background-color: #b5076b;
+  border: 1px solid white;
+  text-align: center;
+  width: 100%;
+  border-radius: 5%;
+}
+
+footer h4{
+  color: #fff;
+  padding-top:10% ;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+footer img{
+  width: 15%; 
+  position: relative; 
+  left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  -moz-transition: all 2.3s ease-in-out;
+  -webkit-transition: all 2.3s ease-in-out;
+  -o-transition: all 2.3s ease-in-out;
+  -ms-transition: all 2.3s ease-in-out;
+  transition: all 2.3s ease-in-out;
+
   
+}
+footer img:hover{
+  -moz-transform: rotateY(-360deg);
+  -webkit-transform: rotateY(-360deg);
+  -ms-transform: rotateY(-360deg);
+  transform: rotateY(-360deg);
+}
+footer p{
+  color: #fff;
+  font-size: 15px;
+} 
+footer .redes img{
+  left: auto;
+  -moz-transition: all 2.3s ease-in-out;
+  -webkit-transition: all 2.3s ease-in-out;
+  -o-transition: all 2.3s ease-in-out;
+  -ms-transition: all 2.3s ease-in-out;
+  transition: all 2.3s ease-in-out;
+}
+
+footer .redes img:hover{
+  -moz-transform: rotateY(-360deg);
+  -webkit-transform: rotateY(-360deg);
+  -ms-transform: rotateY(-360deg);
+  transform: rotateY(-360deg);
+}
+  
+footer .redes a{
+  text-decoration: none;
+  color: #fff;
+ 
+}
+.footer-list{
+  text-decoration: none;
+  color: #fff;
+}
