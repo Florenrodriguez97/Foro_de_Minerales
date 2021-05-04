@@ -9,7 +9,7 @@
 
 header{
   background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/images/gemas-fondo.jpg);
-  height: 100vh;
+  height: 95vh;
   background-size: cover;
   background-position: center;
 }
@@ -108,6 +108,8 @@ ul li.active a{
 }
 
 .parrafo-foro{
+
+  color: #3d3d3d; 
   margin-top: 30px;
   margin-left: 100px;
   text-align: -webkit-match-parent;
@@ -121,6 +123,7 @@ ul li.active a{
   font-weight: bold;
 }
 .parrafo-foro-other {
+  color: #3d3d3d;
   margin-top: 30px;
   text-align: -webkit-match-parent;
   white-space: pre-wrap;
@@ -147,7 +150,7 @@ footer{
 }
 
 footer div{
-  background-color: #b5076b;
+  background-color: #3d3d3d;
   border: 1px solid white;
   text-align: center;
   width: 100%;
@@ -206,7 +209,33 @@ footer .redes a{
   color: #fff;
  
 }
-.footer-list{
+.ul .footer-cat li{
   text-decoration: none;
   color: #fff;
+}
+
+/*TOP 10 GEMAS EXTRAÑAS*/
+
+div .minerales-gemas_top{
+  margin-top: 40px;
+  margin-left: 140px;
+  font-weight: bold;
+}
+.figcaption .figure-caption{
+  margin-left: -10%;
+}
+
+ .title-top10 h1{
+  margin-top: 100px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.figure-description{
+  margin-top: 6%;
+  margin-bottom: 6%;
+  margin-right: 50px;
+}
+.title-top h1{ 
+  margin-top: 6%;
 }
