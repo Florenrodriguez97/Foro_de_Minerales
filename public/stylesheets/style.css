@@ -7,6 +7,7 @@
   font-family: Century Gothic;
 }
 
+
 header{
   background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/images/gemas-fondo.jpg);
   height: 95vh;
@@ -149,13 +150,16 @@ ul{
   padding-left: 0px;
 }
 /*FOOTER */
+.fab-links{
+  background-color: #fff;
+}
 
 .last-box{
  border-left: 2px solid #fff;
 
 }
 .container-fluid-footer{
-  background-color: grey;
+  background-color: #24262b;
   height: 50%;
   padding-bottom: 5%;
   padding-top: 5%;
@@ -211,6 +215,14 @@ footer .redes a{
   color: #fff;
 }
 
+div .col-3 h4{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+
+
 /*TOP 10 GEMAS EXTRAÑAS*/
 
 div .minerales-gemas_top{
@@ -236,3 +248,8 @@ div .minerales-gemas_top{
 .title-top h1{ 
   margin-top: 6%;
 }
+.figure-caption {
+  font-size: 30px;
+  color: #6c757d; 
+
+  }
